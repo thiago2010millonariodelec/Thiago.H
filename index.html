@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo de las Motos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header>
+    <img src="logo.svg" alt="Thiago Hernández" class="logo">
+    <h1>🏍️ Mundo de las Motos</h1>
+    <p>Todo sobre las mejores motocicletas deportivas</p>
+    <p class="intro">Encuentra historia, características y curiosidades de las motos deportivas más icónicas. Navega por las secciones y pulsa los botones para ver más detalles.</p>
+</header>
+
+<nav>
+    <a href="#historia">Historia</a>
+    <a href="#tipos">Tipos</a>
+    <a href="#galeria">Galería</a>
+</nav>
+
+<section id="historia">
+    <h2>Historia de las Motocicletas</h2>
+
+    <p>
+        Las motocicletas surgieron a finales del siglo XIX como una alternativa
+        rápida y económica al transporte tradicional. Con el paso del tiempo
+        evolucionaron hasta convertirse en vehículos de alto rendimiento usados
+        para transporte, deporte y aventura.
+    </p>
+
+    <p>
+        En los años 50 y 60, los diseños deportivos ganaron terreno y las marcas
+        japonesas empezaron a dominar con motores más fiables y suspensiones
+        superiores. Esto permitió que la moto dejara de ser solo un medio de
+        transporte y empezara a ser una máquina de velocidad.
+    </p>
+
+    <p>
+        Hoy, las motocicletas deportivas combinan tecnología de competición,
+        aerodinámica avanzada y electrónica de seguridad, lo que las convierte
+        en máquinas completas para carretera y circuito.
+    </p>
+
+    <button id="btnHistoria" class="btn btn-primary">
+        Leer más
+    </button>
+
+    <p id="historiaExtra" class="toggle-output"></p>
+</section>
+
+<section id="tipos">
+    <h2>Tipos de Motos</h2>
+
+    <ul>
+        <li><strong>Deportivas:</strong> máxima velocidad, aerodinámica y manejo en curvas.</li>
+        <li><strong>Touring:</strong> pensadas para viajes largos, con maletas y asiento cómodo.</li>
+        <li><strong>Naked:</strong> estilo urbano, postura erguida y manejo versátil.</li>
+        <li><strong>Enduro:</strong> preparadas para caminos de tierra y suspensiones de largo recorrido.</li>
+        <li><strong>Cross:</strong> motos ligeras y potentes para circuito off-road o competición.</li>
+    </ul>
+
+    <button id="btnTipos" class="btn btn-primary">
+        Ver descripción
+    </button>
+
+    <p id="tiposExtra" class="toggle-output"></p>
+</section>
+
+<section id="galeria">
+    <h2>Moto Destacada</h2>
+
+    <div class="gallery-grid">
+        <article class="card">
+            <img src="yamahar6.jpg" alt="Yamaha R6">
+            <h4>Yamaha R6</h4>
+            <p>La Yamaha R6 es una supersport compacta con motor de 599 cc y diseño enfocado al rendimiento. Su chasis ligero y su posición de conducción agresiva la hacen ideal para pista y curvas cerradas.</p>
+            <ul>
+                <li>Motor: 599 cc, 4 cilindros en línea</li>
+                <li>Potencia: alrededor de 118 CV</li>
+                <li>Año de lanzamiento: 1999</li>
+                <li>Suspensión: regulable en horquilla y amortiguador</li>
+                <li>Especial: excelente equilibrio entre agilidad y aceleración</li>
+            </ul>
+        </article>
+
+        <article class="card">
+            <img src="hornet.jpg" alt="Honda Hornet">
+            <h4>Honda Hornet</h4>
+            <p>La Honda Hornet es una naked deportiva popular por su postura cómoda y motor sólido. Es una moto versátil que funciona bien en ciudad y rutas rápidas gracias a su equilibrio entre potencia y manejo.</p>
+            <ul>
+                <li>Motor: 600 cc, bicilíndrico o de cuatro cilindros según versión</li>
+                <li>Potencia: aproximadamente 100 CV</li>
+                <li>Uso: urbano, carretera y paseos cortos</li>
+                <li>Chasis: tubular rígido con buena respuesta</li>
+                <li>Especial: conducción cómoda y amplio rango de revoluciones</li>
+            </ul>
+        </article>
+
+        <article class="card">
+            <img src="yamaha-r1.jpg" alt="Yamaha R1">
+            <h4>Yamaha YZF-R1</h4>
+            <p>La R1 es una superbike legendaria con motor crossplane de 998 cc y tecnología inspirada en MotoGP. Su electrónica avanzada y chasis de alto rendimiento la hacen una referencia entre las motos deportivas modernas.</p>
+            <ul>
+                <li>Motor: 998 cc, crossplane de 4 cilindros</li>
+                <li>Potencia: cerca de 200 CV</li>
+                <li>Electrónica: control de tracción, modos de potencia y anti-wheelie</li>
+                <li>Uso: pista, circuito y carretera deportiva</li>
+                <li>Especial: diseño agresivo y respuesta instantánea del motor</li>
+            </ul>
+        </article>
+    </div>
+
+    <div class="info-card card">
+        <p id="infoMoto">Las Yamaha R6 y R1 representan dos etapas del motociclismo deportivo japonés: la R6 para dinámica de carrera y la R1 para prestaciones de superbike.</p>
+        <button id="btnMoto" class="btn btn-secondary">Más información</button>
+    </div>
+</section>
+
+<section>
+    <h2>Datos Curiosos</h2>
+
+    <button id="btnDato" class="btn btn-primary">
+        Mostrar dato curioso
+    </button>
+
+    <p id="dato" class="toggle-output"></p>
+</section>
+
+<footer>
+    <p>© Creado por Hernández Thiago 2026</p>
+    <p class="footer-links"><a href="privacy.html">Política de privacidad</a> · <a href="privacy.html#cookies">Política de cookies</a></p>
+</footer>
+
+<!-- Cookie banner -->
+<div id="cookie-banner" class="cookie-banner" aria-live="polite">
+    <div class="cookie-content">
+        <p><strong>Usamos cookies</strong> para mejorar la experiencia en esta web, analizar el tráfico y mostrar contenido relevante. Al continuar aceptas su uso.</p>
+        <div class="cookie-actions">
+            <button id="accept-cookies" class="btn btn-primary">Aceptar</button>
+            <a href="privacy.html#cookies" class="btn btn-secondary">Política de cookies</a>
+        </div>
+    </div>
+</div>
+
+<script src="cookies.js"></script>
+<script src="script.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
